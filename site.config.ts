@@ -56,26 +56,6 @@ export default siteConfig({
     {
       title: 'Categories',
       pageId: '0f711e0d11fe4b049e670b5c94bd7e94'
-    },
-    {
-      title: 'Categories',
-      pageId: '0f711e0d11fe4b049e670b5c94bd7e94',
     }
-  ],
-  // -------- custom configs (2skydev) -------------
-
-  // date-fns format string
-  dateformat: 'yyyy년 MM월 dd일',
-
-  // post page - hidden properties
-  hiddenPostProperties: ['설명', '상태', '최하위 정렬'],
-
-  // contentPosition (table of contents) text align
-  contentPositionTextAlign: 'left',
-
-  // default theme color
-  defaultTheme: 'system',
-
-  // enable comment
-  enableComment: true
+  ]
 })
